@@ -76,7 +76,7 @@ aside {
 .card_front>*:not(.backround_img) {
     position: absolute;
     z-index: 2;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .logo {
@@ -84,16 +84,23 @@ aside {
 }
 
 .card_number {
-    top: 50%;
+    top: 40%;
+    font-size: 1.925rem;
+    letter-spacing: 0.1rem;
 }
 
 .cardholder_name {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
     bottom: 0;
 }
 
 .card_expiry {
     right: 0;
     bottom: 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
 }
 
 .card_back {
