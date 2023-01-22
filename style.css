@@ -63,6 +63,9 @@ aside {
 
 .card_front {
     position: relative;
+    width: max-content;
+    color: var(--neutral-white);
+
     /* background-image: url(./images/bg-card-front.png);
     background-repeat: no-repeat;
     aspect-ratio: 2/1;
@@ -70,11 +73,28 @@ aside {
     max-width: fit-content; */
 }
 
-.logo {
+.card_front>*:not(.backround_img) {
     position: absolute;
+    z-index: 2;
     padding: 1rem;
 }
 
+.logo {
+    left: 0;
+}
+
+.card_number {
+    top: 50%;
+}
+
+.cardholder_name {
+    bottom: 0;
+}
+
+.card_expiry {
+    right: 0;
+    bottom: 0;
+}
 
 .card_back {
     background-image: url(./images/bg-card-back.png);
