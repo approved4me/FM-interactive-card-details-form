@@ -61,22 +61,19 @@ aside {
     background-size: cover;
 }
 
-.card_front {
+.card_front,
+.card_back {
     position: relative;
     width: max-content;
     color: var(--neutral-white);
-
-    /* background-image: url(./images/bg-card-front.png);
-    background-repeat: no-repeat;
-    aspect-ratio: 2/1;
-    border: 3px solid green;
-    max-width: fit-content; */
 }
 
-.card_front>*:not(.backround_img) {
+.card_front>*:not(.backround_img),
+.card_back>*:not(.backround_img) {
     position: absolute;
     z-index: 2;
     padding: 2rem;
+
 }
 
 .logo {
@@ -107,6 +104,12 @@ aside {
     background-image: url(./images/bg-card-back.png);
     background-repeat: no-repeat;
     aspect-ratio: 2/1;
+}
+
+.card_cvc {
+    font-size: 0.8rem;
+    top: 32%;
+    left: 75%
 }
 
 .hidden {
