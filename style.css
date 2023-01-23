@@ -151,8 +151,17 @@ aside {
     color: var(--neutral-ight_grayish_violet);
 }
 
-.details label {
+.details {
+    display: flex;
+    gap: 1rem;
+}
 
+.details label {
+    display: block;
+}
+
+.cvc label {
+    display: block;
 }
 
 .hidden {
