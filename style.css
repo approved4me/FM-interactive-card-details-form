@@ -43,7 +43,7 @@ select {
 
     --neutral-white: hsl(0, 0%, 100%);
     --neutral-ight_grayish_violet: hsl(270, 3%, 87%);
-    --neutral-dark_grayish: violet: hsl(279, 6%, 55%);
+    --neutral-dark_grayish_violet: hsl(279, 6%, 55%);
     --neutral-very_dark_violet: hsl(278, 68%, 11%);
 }
 
@@ -148,6 +148,11 @@ aside {
 
 .form input {
     padding: 0.5rem 1rem;
+    color: var(--neutral-very_dark_violet);
+    width: auto%;
+}
+
+.form input::placeholder {
     color: var(--neutral-ight_grayish_violet);
 }
 
@@ -162,6 +167,10 @@ aside {
 
 .cvc label {
     display: block;
+}
+
+.expiry input {
+    max-width: 5rem;
 }
 
 .hidden {
