@@ -64,7 +64,7 @@ aside {
 .cards {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 2rem;
+    padding-inline: 2rem;
 }
 
 .card_front,
@@ -84,7 +84,7 @@ aside {
     z-index: 1;
     order: 2;
     margin-top: -5rem;
-    padding-right: 2rem;
+
 }
 
 .card_front>*:not(.backround_img),
@@ -122,7 +122,6 @@ aside {
 .card_back {
     background-image: url(./images/bg-card-back.png);
     background-repeat: no-repeat;
-    aspect-ratio: 2/1;
 }
 
 .card_cvc {
