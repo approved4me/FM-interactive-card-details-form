@@ -61,11 +61,30 @@ aside {
     background-size: cover;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+}
+
 .card_front,
 .card_back {
     position: relative;
     width: max-content;
     color: var(--neutral-white);
+}
+
+.card_back {
+    margin-left: auto;
+    order: 1;
+
+}
+
+.card_front {
+    z-index: 1;
+    order: 2;
+    margin-top: -5rem;
+    padding-right: 2rem;
 }
 
 .card_front>*:not(.backround_img),
@@ -109,7 +128,14 @@ aside {
 .card_cvc {
     font-size: 0.8rem;
     top: 32%;
-    left: 75%
+    right: 15%
+}
+
+
+.card_holder {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
 }
 
 .hidden {
