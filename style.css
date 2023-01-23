@@ -161,17 +161,14 @@ aside {
     gap: 1rem;
 }
 
+
 .details label {
     display: block;
 }
 
-.cvc label {
-    display: block;
-}
+.expiry input {}
 
-.expiry input {
-    max-width: 5rem;
-}
+.cvc input {}
 
 .hidden {
     display: none;
