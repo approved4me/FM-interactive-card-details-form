@@ -166,15 +166,15 @@ aside {
     display: block;
 }
 
-.expiry {
+/* .expiry {
     flex: 1;
-}
+} */
 
 .expiry input {}
 
-.cvc {
+/* .cvc {
     flex: 1
-}
+} */
 
 .cvc input {}
 

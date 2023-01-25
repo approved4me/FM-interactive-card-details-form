@@ -43,12 +43,14 @@
         <div class="details">
           <div class="expiry">
             <label for="input_card_expiry_mm">Exp. Date (MM/YY)</label>
-            <input id="input_card_expiry_mm" width="2" type="text" placeholder="MM">
-            <input id="input_card_expiry_yy" type="text" placeholder="YY">
+            <!-- maxlength = maximal allowed character input  -->
+            <!-- size = size of the input field, when not controlled by css -->
+            <input id="input_card_expiry_mm" size="2" maxlength="2" type="text" placeholder="MM">
+            <input id="input_card_expiry_yy" size="2" maxlength="2" type="text" placeholder="YY">
           </div>
           <div class="cvc">
             <label for="input_card_cvc">CVC</label>
-            <input id="cvc" type="text" placeholder="e.g. 123">
+            <input id="cvc" type="text" size="3" maxlength="3" placeholder="e.g. 123">
           </div>
         </div>
         <button type="submit" class="submit">Confirm</button>
