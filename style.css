@@ -149,7 +149,7 @@ aside {
 .form input {
     padding: 0.5rem 1rem;
     color: var(--neutral-very_dark_violet);
-    width: auto%;
+    width: 100%;
 }
 
 .form input::placeholder {
@@ -167,6 +167,10 @@ aside {
 }
 
 .expiry input {}
+
+.cvc {
+    flex: 1
+}
 
 .cvc input {}
 
