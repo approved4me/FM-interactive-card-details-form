@@ -166,6 +166,10 @@ aside {
     display: block;
 }
 
+.expiry {
+    flex: 1;
+}
+
 .expiry input {}
 
 .cvc {
