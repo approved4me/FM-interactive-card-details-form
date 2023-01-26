@@ -149,7 +149,7 @@ aside {
 .form input {
     padding: 0.5rem 1rem;
     color: var(--neutral-very_dark_violet);
-    width: 100%;
+    /* width: 100%; this overrights the size type attribute*/
 }
 
 .form input::placeholder {
