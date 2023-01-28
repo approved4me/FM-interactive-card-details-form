@@ -68,29 +68,16 @@ aside {
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr;
     padding-inline: 2rem;
-
 }
 
 .card_front,
 .card_back {
     position: relative;
+    border-radius: 0.6rem;
     width: max-content;
     color: var(--neutral-white);
-}
-
-.card_back {
-    margin-left: auto;
-    order: 1;
-
-}
-
-.card_front {
-    z-index: 1;
-    order: 2;
-    margin-top: -5rem;
-
+    box-shadow: 0.5rem 0 1rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .card_front>*:not(.backround_img),
@@ -98,7 +85,17 @@ aside {
     position: absolute;
     z-index: 2;
     padding: 2rem;
+}
 
+.card_back {
+    margin-left: auto;
+    order: 1;
+}
+
+.card_front {
+    z-index: 1;
+    order: 2;
+    margin-top: -5rem;
 }
 
 .logo {
@@ -140,7 +137,6 @@ aside {
 .card_holder {
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -189,6 +185,7 @@ aside {
 }
 
 .attribution {
+    grid-template-columns: 2fr;
     font-size: 11px;
     text-align: center;
 }
@@ -207,11 +204,6 @@ aside {
         grid-template-columns: 1fr 2fr;
         align-items: center;
         padding: 0;
-    }
-
-    main {
-        display: grid;
-        justify-content: center;
     }
 
     aside {
