@@ -151,6 +151,8 @@ aside {
 .form input {
     padding: 0.5rem 1rem;
     color: var(--neutral-very_dark_violet);
+    border: 1px solid var(--neutral-ight_grayish_violet);
+    border-radius: 0.5rem;
     /* width: 100%; this overrights the size type attribute*/
 }
 
@@ -180,8 +182,19 @@ aside {
 
 .cvc input {}
 
+
 .hidden {
     display: none;
+}
+
+.submit {
+    cursor: pointer;
+    border: transparent;
+    background-color: var(--neutral-very_dark_violet);
+    color: var(--neutral-white);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
 .attribution {
