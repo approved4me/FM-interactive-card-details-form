@@ -68,17 +68,19 @@ aside {
 
 .cards {
     display: grid;
-    padding-inline: 2rem;
+    padding: 1rem;
 }
 
 .card_front,
 .card_back {
     position: relative;
+    width: calc(100% - 5rem);
+    /* fix shadow - fix size*/
     border-radius: 0.6rem;
-    width: max-content;
     color: var(--neutral-white);
     box-shadow: 0.5rem 0 1rem 0 rgba(0, 0, 0, 0.2);
 }
+
 
 .card_front>*:not(.backround_img),
 .card_back>*:not(.backround_img) {
@@ -104,7 +106,7 @@ aside {
 
 .card_number {
     top: 40%;
-    font-size: 1.925rem;
+    font-size: 1.4rem;
     letter-spacing: 0.1rem;
 }
 
@@ -230,10 +232,20 @@ aside {
         align-items: center;
     }
 
+    .card_front,
+    .card_back {
+        width: max-content;
+    }
+
+
     .card_front {
         order: 1;
         margin-bottom: 2rem;
         transform: translateX(30%);
+    }
+
+    .card_number {
+        font-size: 1.925rem;
     }
 
     .card_back {
