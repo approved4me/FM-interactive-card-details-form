@@ -160,6 +160,11 @@ aside {
     color: var(--neutral-ight_grayish_violet);
 }
 
+.form textarea:focus,
+.form input:focus {
+    outline: 1px solid var(--neutral-very_dark_violet);
+}
+
 .details {
     display: flex;
     gap: 1rem;
