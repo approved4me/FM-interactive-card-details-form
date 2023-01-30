@@ -75,7 +75,8 @@ aside {
 .card_front,
 .card_back {
     position: relative;
-    width: calc(100% - 5rem);
+    max-width: 28rem;
+    max-height: 15.4rem;
     /* fix shadow - fix size*/
     border-radius: 0.6rem;
     color: var(--neutral-white);
@@ -234,7 +235,7 @@ aside {
     main {
         margin-top: 0;
     }
-    
+
 
     aside {
         min-height: 100vh;
@@ -250,7 +251,7 @@ aside {
     .card_front>*:not(.backround_img),
     .card_back>*:not(.backround_img) {
         padding: 2rem;
-}
+    }
 
     .card_front {
         order: 1;
