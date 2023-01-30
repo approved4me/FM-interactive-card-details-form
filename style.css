@@ -48,7 +48,6 @@ select {
 }
 
 body {
-    padding: 1rem;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1.125rem;
     font-weight: 500;
@@ -57,6 +56,7 @@ body {
 main {
     max-width: 24rem;
     margin: 0 auto;
+    margin-top: 5rem;
 }
 
 aside {
@@ -81,12 +81,11 @@ aside {
     box-shadow: 0.5rem 0 1rem 0 rgba(0, 0, 0, 0.2);
 }
 
-
 .card_front>*:not(.backround_img),
 .card_back>*:not(.backround_img) {
     position: absolute;
     z-index: 2;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .card_back {
@@ -98,6 +97,7 @@ aside {
     z-index: 1;
     order: 2;
     margin-top: -5rem;
+    margin-bottom: -4rem;
 }
 
 .logo {
@@ -140,6 +140,7 @@ aside {
     display: flex;
     flex-direction: column;
 }
+
 
 
 .form label {
@@ -227,6 +228,11 @@ aside {
         padding: 0;
     }
 
+    main {
+        margin-top: 0;
+    }
+    
+
     aside {
         min-height: 100vh;
         align-items: center;
@@ -237,6 +243,11 @@ aside {
         width: max-content;
     }
 
+
+    .card_front>*:not(.backround_img),
+    .card_back>*:not(.backround_img) {
+        padding: 2rem;
+}
 
     .card_front {
         order: 1;
