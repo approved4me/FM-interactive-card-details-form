@@ -68,7 +68,7 @@ aside {
 
 .cards {
     display: grid;
-    padding: 1rem;
+    padding: 0 1rem;
     margin: 0 auto;
 }
 
@@ -94,6 +94,7 @@ aside {
     margin-left: auto;
     order: 1;
     margin-left: 4rem;
+    margin-top: 2rem;
 }
 
 .card_front {
@@ -110,7 +111,7 @@ aside {
 
 .card_number {
     top: 40%;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     letter-spacing: 0.1rem;
 }
 
