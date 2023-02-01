@@ -56,7 +56,7 @@ body {
 main {
     max-width: 24rem;
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 aside {
@@ -118,7 +118,7 @@ aside {
 
 .cardholder_name {
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     letter-spacing: 0.1rem;
     bottom: 0;
 }
@@ -126,7 +126,7 @@ aside {
 .card_expiry {
     right: 0;
     bottom: 0;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     letter-spacing: 0.1rem;
 }
 
@@ -268,6 +268,13 @@ input#input_card_expiry_yy {
     .card_number {
         font-size: 1.925rem;
     }
+
+    .cardholder_name,
+    .card_expiry {
+        font-size: 0.8rem;
+    }
+
+
 
     .card_back {
         order: 2;
