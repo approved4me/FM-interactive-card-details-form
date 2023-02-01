@@ -93,7 +93,7 @@ aside {
 .card_back {
     margin-left: auto;
     order: 1;
-    margin-left: 4rem;
+    margin-left: 3rem;
     margin-top: 2rem;
 }
 
@@ -107,7 +107,7 @@ aside {
 
 .logo {
     left: 0;
-    max-width: 25%;
+    max-width: 30%;
 }
 
 .card_number {
@@ -138,7 +138,7 @@ aside {
 .card_cvc {
     font-size: 0.8rem;
     top: 32%;
-    right: 5%
+    right: 5%;
 }
 
 
@@ -186,18 +186,15 @@ aside {
     display: block;
 }
 
-/* .expiry {
+input#input_card_expiry_yy {
+    margin-left: 0.5rem;
+}
+
+.cvc {
+    display: flex;
+    flex-direction: column;
     flex: 1;
-} */
-
-.expiry input {}
-
-/* .cvc {
-    flex: 1
-} */
-
-.cvc input {}
-
+}
 
 .hidden {
     display: none;
