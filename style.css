@@ -102,7 +102,7 @@ aside {
     order: 2;
     margin-top: -4rem;
     margin-bottom: -4rem;
-    margin-right: 4rem;
+    margin-right: 3rem;
 }
 
 .logo {
@@ -136,9 +136,10 @@ aside {
 }
 
 .card_cvc {
-    font-size: 0.8rem;
-    top: 32%;
-    right: 5%;
+    font-size: 0.6rem;
+    top: 50%;
+    left: 80%;
+    transform: translate(-40%, -50%);
 }
 
 
@@ -270,7 +271,8 @@ input#input_card_expiry_yy {
     }
 
     .cardholder_name,
-    .card_expiry {
+    .card_expiry,
+    .card_cvc {
         font-size: 0.8rem;
     }
 
