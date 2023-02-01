@@ -68,7 +68,7 @@ aside {
 
 .cards {
     display: grid;
-    padding: 0 1rem;
+    padding: 0 1rem 2rem;
     margin: 0 auto;
 }
 
@@ -100,18 +100,19 @@ aside {
 .card_front {
     z-index: 1;
     order: 2;
-    margin-top: -5rem;
+    margin-top: -4rem;
     margin-bottom: -4rem;
     margin-right: 4rem;
 }
 
 .logo {
     left: 0;
+    max-width: 25%;
 }
 
 .card_number {
     top: 40%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 0.1rem;
 }
 
@@ -261,6 +262,11 @@ aside {
         margin-bottom: 2rem;
         transform: translateX(30%);
     }
+
+    .logo {
+        max-width: unset;
+    }
+
 
     .card_number {
         font-size: 1.925rem;
