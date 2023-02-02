@@ -197,6 +197,14 @@ input#input_card_expiry_yy {
     flex: 1;
 }
 
+.hidden_error {
+    color: var(--primary-input_errors);
+    font-size: 0.8rem;
+    visibility: hidden;
+}
+
+.unhidden { visibility: visible; }
+
 .hidden {
     display: none;
 }

@@ -38,6 +38,7 @@
       <form class="card_holder" action="">
         <label for="input_cardholder_name">Cardholder Name</label>
         <input id="input_cardholder_name" type="text" placeholder="e.g. Jane Appleseed">
+        <div class="hidden_error">Can't be blank</div>
         <label for="input_card_number">Card Number</label>
         <input id="input_card_number" maxlength="16" type="text" placeholder="e.g. 1234 5678 9123 0000">
         <div class="details">
@@ -47,10 +48,12 @@
             <!-- size = size of the input field, when not controlled by css -->
             <input id="input_card_expiry_mm" size="2" maxlength="2" type="text" placeholder="MM">
             <input id="input_card_expiry_yy" size="2" maxlength="2" type="text" placeholder="YY">
+            <div class="hidden_error">Can't be blank</div>
           </div>
           <div class="cvc">
             <label for="input_card_cvc">CVC</label>
             <input id="cvc" type="text" size="3" maxlength="3" placeholder="e.g. 123">
+            <div class="hidden_error">Can't be blank</div>
           </div>
         </div>
         <button type="submit" class="submit">Confirm</button>
