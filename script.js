@@ -6,5 +6,4 @@ form.addEventListener("submit", function(e) {
   e.preventDefault(); //prevents Browser from refreshing
   form.classList.add("hidden");
   thankYou.classList.remove("hidden");
-  
 })

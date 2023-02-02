@@ -203,11 +203,11 @@ input#input_card_expiry_yy {
     visibility: hidden;
 }
 
-.unhidden { visibility: visible; }
-
-.hidden {
-    display: none;
+.unhidden {
+    visibility: visible;
 }
+
+
 
 .submit {
     cursor: pointer;
@@ -217,11 +217,39 @@ input#input_card_expiry_yy {
     border-radius: 0.5rem;
     padding: 1rem;
     margin-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.thank_you {
+    display: flex;
+    flex-direction: column;
+}
+
+.thank_you img {
+    align-self: center;
+}
+
+.thank_you .thanks {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+}
+
+.added {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color:  var(--neutral-dark_grayish_violet);
+}
+
+.hidden {
+    display: none;
 }
 
 .attribution {
     margin-top: 2rem;
-    ;
     font-size: 11px;
     text-align: center;
 }
